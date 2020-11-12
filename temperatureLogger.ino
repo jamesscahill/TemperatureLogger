@@ -24,7 +24,8 @@ struct tempLogs{
     
     std::vector<double> dhtTemp;
     std::vector<double> poolTemp;
-}
+    std::vector<double> grandstandTemp;
+};
 
 
 
@@ -40,11 +41,8 @@ void setup() {
    ESPUI.setVerbosity(Verbosity::VerboseJSON);
   Serial.begin(115200);
 
-#if defined(ESP32)
   WiFi.setHostname(hostname);
-#else
-  WiFi.hostname(hostname);
-#endif
+
 
   // try to connect to existing network
   WiFi.begin(ssid, password);
@@ -87,6 +85,13 @@ void setup() {
   Serial.println(WiFi.getMode() == WIFI_AP ? WiFi.softAPIP() : WiFi.localIP());
 
  
+uint16_t tab1 = ESPUI.addControl( ControlType::Tab, "24 Hours", "24 Hours" );
+  uint16_t tab2 = ESPUI.addControl( ControlType::Tab, "Week", "Week" );
+  uint16_t tab3 = ESPUI.addControl( ControlType::Tab, "Month", "Month" );
+   uint16_t tab4 = ESPUI.addControl( ControlType::Tab, "Year", "Year" );
+
+
+
   /*
    * .begin loads and serves all files from PROGMEM directly.
    * If you want to serve the files from SPIFFS use ESPUI.beginSPIFFS
