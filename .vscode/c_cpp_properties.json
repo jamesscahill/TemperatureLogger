@@ -3,6 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\james\\AppData\\Local\\Arduino15\\**",
                 "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\**",
                 "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\**",
                 "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\libraries\\**",
@@ -10,12 +11,14 @@
                 "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\**",
                 "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\Hash\\src\\*",
                 "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src",
+                "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\**",
                 "C:/Program Files (x86)/Arduino/libraries/**",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/**",
                 "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/**",
                 "C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/7.3.0/include/**",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard/**",
-                "C:\\Program Files (x86)\\Arduino\\libraries\\**"
+                "C:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "C:\\Program Files (x86)\\Arduino\\**"
             ],
             "forcedInclude": [],
             "intelliSenseMode": "clang-x64",
