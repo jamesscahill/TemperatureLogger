@@ -19,4 +19,4 @@ The required components for this device are as follows:
 * 3x [DS18B20 1-Wire Temperature Sensor](https://www.adafruit.com/product/381)
 * 1x [VEML7700 I2C Lux Sensor](https://www.adafruit.com/product/416)
 * 1x [BME280 I2C Temperature & Humidity Sensor](https://www.adafruit.com/product/2652)
-*1x [DS3231 I2C Precision RTC](https://au.mouser.com/ProductDetail/Adafruit/3295?qs=0X%2FVfLRQkePjC%2FDwiF4rig%3D%3D&vip=1&gclid=EAIaIQobChMIytKE5IS77QIVb8FMAh27NAZAEAQYAiABEgINjPD_BwE)
+* 1x [DS3231 I2C Precision RTC](https://au.mouser.com/ProductDetail/Adafruit/3295?qs=0X%2FVfLRQkePjC%2FDwiF4rig%3D%3D&vip=1&gclid=EAIaIQobChMIytKE5IS77QIVb8FMAh27NAZAEAQYAiABEgINjPD_BwE)
