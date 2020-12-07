@@ -2,7 +2,7 @@
 
 This code is based around a [ESP-WROVER-KIT v4.1](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-wrover-kit.html) with various temperature, humidity and light sensors to log environmental conditions at an aquatic facility.
 
-##Introduction
+## Introduction
 
 This project leans heavily on the [ESPUI](https://github.com/s00500/ESPUI) library, which allows for a web based inferface to host the current sensor reads, graphs and settings of the device.
 
@@ -10,7 +10,7 @@ This device also utilises the TFT-LCD screen to display the current sensor readi
 
 The data collected is in 15 min increments over a 12 month period, where the oldest data is discarded as new data is added.
 
-##Required Components
+## Required Components
 
 The required components for this device are as follows:
 
